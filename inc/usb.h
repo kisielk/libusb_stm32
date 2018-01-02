@@ -51,7 +51,6 @@
     #error Unsupported STM32 family
 #endif
 
-#include <stdbool.h>
 #include "usbd_core.h"
 #if !defined(__ASSEMBLER__)
     #include "usb_std.h"
